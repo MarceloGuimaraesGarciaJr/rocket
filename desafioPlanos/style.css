@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vw;
+    text-align: center;
+}
+.containerbg{
+    background-color: #1D539E;
+}
+.container{
+    border: 1px solid red;
+    width: 70vw;
+    height: 50vh;
+
+}
