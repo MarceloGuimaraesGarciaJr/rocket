@@ -1,15 +1,38 @@
-// const e let são locais, e só funcionam no escopo onde são colocadas 
+// Exercicios 
 
-const x = 1
+//1. Declare uma variável de nome wight
 
-{
-    const x = 0
-    console.log("Existe x antes do bloco?",x)
-   
+let weight = 88.5
+
+//2 - Qual o tipo do dado da variável acima? 
+
+console.log(typeof weight)
+
+
+//declare uma variável 
+
+// let name,age,stars,isSubscribed 
+//     name = 'Marcelo'
+//     age = '27'
+//     stars = 4.5
+//     isSubscribed = true
+
+//     console.log(`${name} de idade ${age} e pesa ${weight}`)
+
+    // 5 declare uma variável do tipo array 
+
+
+students = {
+    name:'Marcelo',
+    age: 27,
+    wheight: 88.5,
+    isSubscribed: true
+
 }
 
-console.log("Existe x aqui?",x)
+let student = [
+    students
+]
 
-//let e const só funcionan no escopo, dentro do {}
-//fora isso só o var funciona.
+console.log(student)
 
